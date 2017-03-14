@@ -1,8 +1,8 @@
 import random
 import pygame
 from pygame import mixer
-P1 = random.randint(1,6)
-P2 = random.randint(1,6)
+P1 = random.randrange(1,6)
+P2 = random.randrange(1,6)
 P1win = 0
 P2win = 0
 
