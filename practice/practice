@@ -1,0 +1,6 @@
+luggage = []
+
+print(luggage)
+print ("you have space for 5 items")
+item = raw_input("what would u like to bring?")
+luggage.append(item)
