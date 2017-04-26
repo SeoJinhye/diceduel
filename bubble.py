@@ -9,8 +9,9 @@ x= 6
 y = 10
 x,y = swap(x,y)
 
-valuesLength = len(values)+1
+values
+valuesLength = len(values)-1
 for count in range(valuesLength):
-	if(values[count]>values[count+1] and count < range):
-		swap(values[count],values[count+1])
-	print (values[count])
+	if(count != valuesLength and values[count]>values[count+1]):
+		(values[count], values[count+1]) = swap(values[count],values)
+print(values)
