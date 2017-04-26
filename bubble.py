@@ -9,7 +9,7 @@ x= 6
 y = 10
 x,y = swap(x,y)
 
-values
+
 valuesLength = len(values)-1
 for count in range(valuesLength):
 	if(count != valuesLength and values[count]>values[count+1]):
